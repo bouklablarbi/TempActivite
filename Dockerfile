@@ -6,7 +6,7 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 
 
 # Copie le fichier WAR généré dans le dossier webapps de Tomcat
-COPY target/tpA18-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/TempActivite-1.0-SNAPSHOT.war
+COPY target/TempActivite-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/TempActivite-1.0-SNAPSHOT.war
 
 
 # Expose le port 8083
