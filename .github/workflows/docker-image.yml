@@ -32,7 +32,7 @@ jobs:
 
       # Construction de l'image Docker avec le fichier WAR généré
       - name: Build Docker image
-        run: docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/tempactivite:latest
+        run: docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/tempactivite:latest .
 
 
       # Pousse l'image Docker sur Docker Hub
