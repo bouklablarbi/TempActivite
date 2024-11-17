@@ -1,5 +1,5 @@
 
-package com.example;
+package org.springdemo.tempactivite;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
