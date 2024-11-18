@@ -13,5 +13,6 @@
         <input type="number" id="temperature" name="temperature" required>
         <button type="submit">Envoyer</button>
     </form>
+
 </body>
 </html>
