@@ -6,7 +6,7 @@
     <title>Indiquer la Température</title>
 </head>
 <body>
-    <h1>TP A18 Larbi BOUKLAB</h1>
+    <h1>TP A18-Larbi BOUKLAB</h1>
     <h3>Entrez la température actuelle (°C)</h3>
     <form action="temperature" method="post">
         <label for="temperature">Température (en °C):</label>
